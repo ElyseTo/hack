@@ -1,0 +1,38 @@
+body{
+  padding: 25px;
+  text-align: center;
+  background: black;
+  color:white;
+  font-family: "Erica One", sans-serif;
+}
+.title {
+	color: lightgreen;
+}
+img{
+  width: 200px;
+  display: block;
+  margin: auto;
+  width: 50%;
+  border-radius:20px;
+}
+img:hover{
+  transform: scale(1.5) rotate(5deg); 
+  box-shadow: 0 0 20px yellow;
+}
+.button {
+  background-color: lightgreen;
+  border: white;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+   margin: 25px 25px 75px;
+
+}
+.button:hover {
+  background-color: white;
+}
